@@ -1,0 +1,46 @@
+cache_flag = true 
+k_list = [0.125, 0.25, 1.0]
+
+[passive]
+    [passive.mnist]
+    learning_rate = 1e-4
+    epochs = 50
+    update_freq = 3
+    batch_size = 128
+    weight_decay = 1e-5
+
+    [passive.fmnist]
+    learning_rate = 1e-4
+    epochs = 50
+    update_freq = 3
+    batch_size = 128
+    weight_decay = 1e-5
+
+    [passive.cifar10]
+    learning_rate = 1e-4
+    epochs = 100
+    update_freq = 3
+    batch_size = 128
+    weight_decay = 1e-5
+
+[active]
+    [active.mnist]
+    learning_rate = 1e-3
+    batch_size = 128
+    epochs = 50
+    # epochs = 1
+    embed_dim = 512
+
+    [active.fmnist]
+    learning_rate = 1e-3
+    batch_size = 128
+    epochs = 50
+    # epochs = 1
+    embed_dim = 512
+
+    [active.cifar10]
+    learning_rate = 1e-3
+    batch_size = 128
+    epochs = 50
+    # epochs = 1
+    embed_dim = 512

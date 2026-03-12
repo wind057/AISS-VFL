@@ -1,0 +1,34 @@
+
+k_list = [0.125, 0.25, 1.0]
+
+[mnist]
+lr = 1e-2
+epochs = 50
+# epochs = 1
+batch_size = 128
+    [mnist.k_n_dict]
+    '0.125' = 0.2
+    '0.25' = 0.2
+    '1.0' = 0.2
+
+[fmnist]
+lr = 1e-2
+epochs = 50
+# epochs = 1
+batch_size = 128
+
+    [fmnist.k_n_dict]
+    '0.125' = 0.25
+    '0.25' = 0.15
+    '1.0' = 0.15
+
+[cifar10]
+lr = 1e-2
+epochs = 50
+# epochs = 1
+batch_size = 128
+
+    [cifar10.k_n_dict]
+    '0.125' = 0.20
+    '0.25' = 0.30
+    '1.0' = 0.25

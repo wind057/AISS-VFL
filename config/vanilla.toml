@@ -1,0 +1,19 @@
+k_list = [0.125, 0.25, 1.0]
+
+[mnist]
+lr = 1e-2
+epochs = 50
+# epochs = 1
+batch_size = 128
+
+[fmnist]
+lr = 1e-2
+epochs = 50
+# epochs = 1
+batch_size = 128
+
+[cifar10]
+lr = 1e-2
+epochs = 50
+# epochs = 1
+batch_size = 128

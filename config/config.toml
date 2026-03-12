@@ -1,0 +1,11 @@
+
+debug_flag = true
+client_num = 4
+embed_dim = 128
+seeds = [4321, 3762, 1573]
+
+dataset_list = ['mnist', 'fmnist', 'cifar10']
+
+device = 'cuda'
+work_dir = "/path/aissvfl"
+dataset_path = '/path/data/'

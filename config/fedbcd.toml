@@ -1,0 +1,17 @@
+Q = 3
+k_list = [0.125, 0.25, 1.0]
+
+[mnist]
+lr = 1e-3
+epochs = 50
+batch_size = 128
+
+[fmnist]
+lr = 1e-3
+epochs = 50
+batch_size = 128
+
+[cifar10]
+lr = 1e-3
+epochs = 50
+batch_size = 128
